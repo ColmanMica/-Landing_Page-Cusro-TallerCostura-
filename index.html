@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Tejido</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="font.css">
+</head>
+<body>
+    <header class="curso">
+        <H1>CURSO DE TEJIDO</H1> 
+        <P class="intro"> Aprendé técnicas únicas y conectá con tu lado artístico </P>
+    </header>
+    <main>
+        <section class="descripcion">
+            <h2>¿Querés aprender, crear y disfrutar? </h2>
+            <p>Nuestros cursos te invitan a darle forma a tus sueños con hilos,
+            colores y mucha inspiración</p>
+        </section>
+
+        <section class="formulario">
+                <h3 >Inscribite:</h3>
+            <form >
+                <div class="nombre">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo">
+                </div>
+
+                <div class="email">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Tu email" required>
+                </div>
+                
+                <div class="cursos">
+                <label for="curso" > Cursos:</label>
+                    <select name="curso" id="curso" required >
+                        <option value=""> Elige un curso</option>
+                        <option value="2agujas">Tejido a 2 agujas</option>
+                        <option value="crochet">Crochet</option>
+                        <option value="tejidocircular">Tejido circular</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="comentario">Comentarios</label>
+                    <textarea name="comentario" rows="4" 
+                    placeholder="Dejanos si te interesa aprender un punto en especial "></textarea>
+                </div>
+
+                <button type="submit"class="botonenviar" >Enviar inscripción!</button>
+            </form>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>Instagram: @tejiendoSueños by COLMAN MICAELA</p>
+
+    </footer>
+</body>
+</html>
